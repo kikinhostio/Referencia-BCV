@@ -1,5 +1,11 @@
 <?php
 
+/*
+Este codigo fue desarrollado para resolver ciertas necesidades, no pretende ser óptimo o seguro
+Usalo bajo tu propia responsabilidad
+Puedes agregar mas filtado para obtener solo el valor numérico y poder usarlo dento de un sistema que necesite esta referencia de tipo de cambio o ficial
+*/
+
     function capturo( $url )
     {
         $ch = curl_init( $url );
